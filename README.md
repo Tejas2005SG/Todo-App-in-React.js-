@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 React To-Do App
 
-## Getting Started
+This is a simple yet efficient to-do app built with React.js that helps you manage your daily tasks. All tasks are stored locally in your browser, so they’re available even after you close the app. 
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Add Tasks**: Quickly add new to-do items.
+- **Mark as Complete**: Track tasks by marking them as complete.
+- **Delete Tasks**: Remove tasks when they're no longer needed.
+- **Persistent Storage**: Uses local storage to save tasks across sessions.
+
+## 📁 Project Structure
+
+```plaintext
+todo-app-react/
+├── src/
+│   ├── components/         # Reusable components (e.g., ToDoList, ToDoItem)
+│   ├── App.js              # Main app component
+│   ├── index.js            # Entry point
+│   └── styles.css          # App styling
+├── public/
+│   └── index.html          # HTML template
+├── package.json            # Project dependencies and scripts
+└── README.md               # Project documentation
 ```
+🚀 Getting Started
+Prerequisites
+Ensure you have Node.js and npm installed.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔧Installation
+1. Clone the repository:
+```
+git clone https://github.com/Tejas2005SG/todo-app-react.git
+cd todo-app-react
+```
+2. Install dependencies:
+```
+npm install
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+3. Run the app:
+```
+npm start
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+The app should now be running on http://localhost:3000.
 
-## Learn More
+🔧 Usage
 
-To learn more about Next.js, take a look at the following resources:
+Add a task: Type into the input field and press Enter or click "Add."
+Complete a task: Click on a task to mark it as complete.
+Delete a task: Click the delete button to remove the task.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠️ Built With
+React.js: For building the UI
+CSS: For styling
+Local Storage: To persist tasks across sessions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🤝 Contributing
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
-## Deploy on Vercel
+📜 License
+This project is licensed under the MIT License.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
